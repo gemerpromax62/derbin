@@ -1,0 +1,1068 @@
+Total diff lines: 1080
+--- orig
++++ out
+@@ -1150,1046 +1150,10 @@
+-    .locals 24
+-
+-    const/4 v2, 0x0
+-
+-    const/4 v14, 0x0
+-
+-    const/16 v18, 0x0
+-
+-    const/4 v12, 0x0
+-
+-    const/4 v11, 0x0
+-
+-    const/4 v10, 0x0
+-
+-    const/4 v13, 0x0
+-
+-    const/4 v3, 0x0
+-
+-    const/4 v4, 0x0
+-
+-    const/4 v5, 0x0
+-
+-    const/16 v17, 0x0
+-
+-    const/4 v7, 0x0
+-
+-    const/4 v9, 0x0
+-
+-    const/16 v21, 0x0
+-
+-    const/16 v19, 0x0
+-
+-    const/4 v8, 0x0
+-
+-    const/4 v6, 0x0
+-
+-    const-string v15, "\u06e2\u06e3"
+-
+-    invoke-static {v15}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    move-result v20
+-
+-    move-object v15, v5
+-
+-    move-object/from16 v16, v14
+-
+-    :goto_0
+-    sparse-switch v20, :sswitch_data_0
+-
+-    goto :goto_0
+-
+-    :sswitch_0
+-    invoke-static {}, Lcom/tencent/igce/ۤۧۧۨ;->ۣۡۥۨ()I
+-
+-    move-result v5
+-
+-    if-gtz v5, :cond_11
+-
+-    invoke-static {}, Lcom/tencent/igce/۟۟ۨۡۦ;->۠ۦ۟۠()I
+-
+-    const-string v5, "\u06e8\u06e5\u06e2"
+-
+-    invoke-static {v5}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۣۥۧ۟(Ljava/lang/Object;)I
+-
+-    move-result v5
+-
+-    move v6, v8
+-
+-    move/from16 v20, v5
+-
+-    goto :goto_0
+-
+-    :sswitch_1
+-    const/4 v8, 0x1
+-
+-    const-string v5, "\u06df\u06e6"
+-
+-    :goto_1
+-    invoke-static {v5}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto :goto_0
+-
+-    :sswitch_2
+-    if-eqz v19, :cond_13
+-
+-    invoke-static {}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦ
+-
+-    move-result v5
+-
+-    if-gtz v5, :cond_0
+-
+-    invoke-static {}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦ
+-
+-    const-string v5, "\u06e3\u06e7\u06e3"
+-
+-    invoke-static {v5}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto :goto_0
+-
+-    :cond_0
+-    const-string v14, "\u06e5\u06e1"
+-
+-    move-object v5, v10
+-
+-    :goto_2
+-    invoke-static {v14}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    move-result v14
+-
+-    move-object v10, v5
+-
+-    move/from16 v20, v14
+-
+-    goto :goto_0
+-
+-    :sswitch_3
+-    const-wide v22, -0x2b44a9a5da78L
+-
+-    invoke-static/range {v22 .. v23}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۣۣۣ۟ۧ(J)Ljava/la
+-
+-    move-result-object v12
+-
+-    const-wide v22, -0x2b53a9a5da78L
+-
+-    invoke-static/range {v22 .. v23}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۣۣۣ۟ۧ(J)Ljava/la
+-
+-    move-result-object v11
+-
+-    move-object v5, v10
+-
+-    :goto_3
+-    const-string v10, "\u06e3\u06e3\u06e5"
+-
+-    move-object v14, v10
+-
+-    goto :goto_2
+-
+-    :catchall_0
+-    move-exception v5
+-
+-    sget v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    sget v6, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    div-int/lit16 v6, v6, -0x587
+-
+-    sub-int/2addr v5, v6
+-
+-    if-ltz v5, :cond_1
+-
+-    const-string v5, "\u06e3\u06e1\u06e7"
+-
+-    invoke-static {v5}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    move-result v5
+-
+-    move v6, v7
+-
+-    move/from16 v20, v5
+-
+-    goto :goto_0
+-
+-    :cond_1
+-    const-string v5, "\u06e2\u06e0\u06e6"
+-
+-    move v6, v7
+-
+-    :goto_4
+-    invoke-static {v5}, Lcom/tencent/igce/ۡ۟۟ۨ;->۠ۤۧۧ(Ljava/lang/Object;)I
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto :goto_0
+-
+-    :sswitch_4
+-    const/4 v7, 0x0
+-
+-    const/4 v9, 0x0
+-
+-    sget v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    if-gtz v5, :cond_2
+-
+-    invoke-static {}, Lcom/tencent/igce/ۥ۠ۨۥ;->ۣ۠ۤۦ()I
+-
+-    const-string v5, "\u06e3\u06e0\u06e3"
+-
+-    invoke-static {v5}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :cond_2
+-    const-string v5, "\u06e5\u06df\u06e5"
+-
+-    :goto_5
+-    invoke-static {v5}, Lcom/tencent/igce/ۡۤۤ۟;->ۣ۟ۦۤۨ(Ljava/lang/Object;)I
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_5
+-    sget v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    sget v14, Lcom/tencent/igce/ۡۤۤ۟;->ۣ۟ۨۢۥ:I
+-
+-    rem-int/2addr v5, v14
+-
+-    const v14, 0x1ab0ed
+-
+-    add-int/2addr v5, v14
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :cond_3
+-    :sswitch_6
+-    invoke-static {}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦ
+-
+-    move-result v5
+-
+-    if-ltz v5, :cond_4
+-
+-    const-string v5, "\u06e1\u06e1\u06e7"
+-
+-    invoke-static {v5}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :cond_4
+-    const-string v5, "\u06e3\u06e1\u06e7"
+-
+-    :goto_6
+-    invoke-static {v5}, Lcom/tencent/igce/ۣ۟ۢۨ;->ۣۣ۟ۡ۠(Ljava/lang/Object;)I
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_7
+-    sget v5, Lcom/tencent/igce/۟ۤۤۨۢ;->ۣۥۤۦ:I
+-
+-    sget v14, Lcom/tencent/igce/ۣۣ۟ۡۤ;->ۣ۟۠۠۠:I
+-
+-    add-int/lit16 v14, v14, -0x930
+-
+-    xor-int/2addr v5, v14
+-
+-    if-ltz v5, :cond_5
+-
+-    invoke-static {}, Lcom/tencent/igce/ۤۨ۟ۤ;->ۨ۠۟ۡ()I
+-
+-    const-string v5, "\u06e2\u06e5"
+-
+-    invoke-static {v5}, Lcom/tencent/igce/ۨۦ۠ۥ;->ۣۣ۠۠(Ljava/lang/Object;)I
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    move/from16 v21, v9
+-
+-    goto/16 :goto_0
+-
+-    :cond_5
+-    sget v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    sget v14, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    div-int/2addr v5, v14
+-
+-    const v14, 0x1aa741
+-
+-    add-int/2addr v5, v14
+-
+-    move/from16 v20, v5
+-
+-    move/from16 v21, v9
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_8
+-    const-wide v22, -0x2b17a9a5da78L
+-
+-    invoke-static/range {v22 .. v23}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۣۣۣ۟ۧ(J)Ljava/la
+-
+-    move-result-object v5
+-
+-    invoke-static {v2, v5}, Lcom/tencent/igce/ۡۤۤ۟;->ۣۧ۟(Ljava/lang/Object;Ljav
+-
+-    move-result v5
+-
+-    if-eqz v5, :cond_16
+-
+-    const-string v14, "\u06e6\u06e7"
+-
+-    move-object v5, v10
+-
+-    goto/16 :goto_2
+-
+-    :sswitch_9
+-    sget v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    sget v14, Lcom/tencent/igce/ۣۣ۟ۡۤ;->ۣ۟۠۠۠:I
+-
+-    add-int/lit16 v14, v14, -0xa69
+-
+-    mul-int/2addr v5, v14
+-
+-    if-gtz v5, :cond_6
+-
+-    invoke-static {}, Lcom/tencent/igce/۟۟ۨۡۦ;->۠ۦ۟۠()I
+-
+-    const-string v5, "\u06e5\u06e3\u06e5"
+-
+-    invoke-static {v5}, Lcom/tencent/igce/ۢۦۢ۠;->۟ۥۧۨۧ(Ljava/lang/Object;)I
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :cond_6
+-    sget v5, Lcom/tencent/igce/۟۟ۨۡۦ;->ۧۧۤ۠:I
+-
+-    sget v14, Lcom/tencent/igce/ۤۨ۟ۤ;->۟ۥ۠ۤۡ:I
+-
+-    div-int/2addr v5, v14
+-
+-    const v14, 0x1aa7fb
+-
+-    xor-int/2addr v5, v14
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_a
+-    invoke-static {}, Lcom/tencent/igce/۟ۨۡۨ;->ۦۥۡۡ()I
+-
+-    move-result v5
+-
+-    if-gtz v5, :cond_7
+-
+-    const-string v5, "\u06e7\u06e7\u06e1"
+-
+-    invoke-static {v5}, Lcom/tencent/igce/ۤۨ۟ۤ;->۟ۥۧۥۤ(Ljava/lang/Object;)I
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :cond_7
+-    const-string v5, "\u06e3\u06e0\u06e3"
+-
+-    goto/16 :goto_1
+-
+-    :sswitch_b
+-    sget v5, Lcom/tencent/igce/۟۟ۨۡۦ;->ۧۧۤ۠:I
+-
+-    sget v14, Lcom/tencent/igce/ۤۧۧۨ;->۟ۧ۟ۡ:I
+-
+-    or-int/lit16 v14, v14, -0xf08
+-
+-    xor-int/2addr v5, v14
+-
+-    if-gtz v5, :cond_8
+-
+-    const/16 v5, 0x23
+-
+-    sput v5, Lcom/tencent/igce/۟۟ۨۡۦ;->ۧۧۤ۠:I
+-
+-    const-string v5, "\u06e8\u06e2\u06e7"
+-
+-    goto/16 :goto_1
+-
+-    :cond_8
+-    sget v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    sget v14, Lcom/tencent/igce/۟۟ۨۡۦ;->ۧۧۤ۠:I
+-
+-    rem-int/2addr v5, v14
+-
+-    const v14, 0x1aa675
+-
+-    xor-int/2addr v5, v14
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_c
+-    :try_start_0
+-    invoke-static/range {v19 .. v19}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦ
+-    :try_end_0
+-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+-
+-    invoke-static {}, Lcom/tencent/igce/۟۠ۢۡ;->ۥۣ۠ۧ()I
+-
+-    move-result v5
+-
+-    if-ltz v5, :cond_9
+-
+-    const/16 v5, 0x24
+-
+-    sput v5, Lcom/tencent/igce/ۣ۟ۢۨ;->ۡۦۦ۠:I
+-
+-    :cond_9
+-    const-string v5, "\u06e5\u06e6\u06df"
+-
+-    :goto_7
+-    invoke-static {v5}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_d
+-    :try_start_1
+-    invoke-static {}, Lcom/tencent/igce/ۣۢ۟ۦ;->ۢۤۤ۟()Ljava/lang/Runtime;
+-
+-    move-result-object v5
+-
+-    const-wide v22, -0x2bcfa9a5da78L
+-
+-    invoke-static/range {v22 .. v23}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۣۣۣ۟ۧ(J)Ljava/la
+-
+-    move-result-object v14
+-
+-    invoke-static {v5, v14}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۡۦۣۡ(Ljava/lang/Object;Lj
+-    :try_end_1
+-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+-
+-    move-result-object v5
+-
+-    sget v14, Lcom/tencent/igce/۟۟ۨۡۦ;->ۧۧۤ۠:I
+-
+-    sget v19, Lcom/tencent/igce/ۣۢ۟ۦ;->۟ۥۡۥۤ:I
+-
+-    rem-int v14, v14, v19
+-
+-    const v19, 0x1aafb9
+-
+-    add-int v14, v14, v19
+-
+-    move-object/from16 v19, v5
+-
+-    move/from16 v20, v14
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_e
+-    const-string v5, "\u06e2\u06e0\u06e1"
+-
+-    :goto_8
+-    invoke-static {v5}, Lcom/tencent/igce/ۥ۠ۨۥ;->ۨۡ۠۟(Ljava/lang/Object;)I
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_f
+-    sget v5, Lcom/tencent/igce/۟۠ۢۡ;->ۣ۠ۤۤ:I
+-
+-    sget v14, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    or-int/lit16 v14, v14, -0x446
+-
+-    mul-int/2addr v5, v14
+-
+-    if-gtz v5, :cond_a
+-
+-    invoke-static {}, Lcom/tencent/igce/ۢۦۢ۠;->۟ۥۥۤۦ()I
+-
+-    const-string v5, "\u06e7\u06e4\u06e5"
+-
+-    goto/16 :goto_5
+-
+-    :cond_a
+-    sget v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    sget v14, Lcom/tencent/igce/ۤۧۧۨ;->۟ۧ۟ۡ:I
+-
+-    or-int/2addr v5, v14
+-
+-    const v14, 0xdd1d
+-
+-    add-int/2addr v5, v14
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_10
+-    add-int/lit8 v5, v21, -0x1c
+-
+-    add-int/lit8 v5, v5, 0x1
+-
+-    add-int/lit8 v14, v5, 0x1c
+-
+-    sget v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    if-gtz v5, :cond_b
+-
+-    const/16 v5, 0x50
+-
+-    sput v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    const-string v5, "\u06e1\u06e7"
+-
+-    invoke-static {v5}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    move/from16 v21, v14
+-
+-    goto/16 :goto_0
+-
+-    :cond_b
+-    sget v5, Lcom/tencent/igce/ۡ۟۟ۨ;->ۢۤ۟ۢ:I
+-
+-    sget v20, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    sub-int v5, v5, v20
+-
+-    const v20, -0x1ab473
+-
+-    xor-int v5, v5, v20
+-
+-    move/from16 v20, v5
+-
+-    move/from16 v21, v14
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_11
+-    sget v5, Lcom/tencent/igce/۟ۧۦۣۨ;->ۣ۟۟ۤۨ:I
+-
+-    sget v14, Lcom/tencent/igce/ۢۦۢ۠;->ۢۢۥۤ:I
+-
+-    xor-int/lit16 v14, v14, -0x24ef
+-
+-    xor-int/2addr v5, v14
+-
+-    if-gtz v5, :cond_c
+-
+-    const-string v5, "\u06e8\u06e3\u06e8"
+-
+-    goto/16 :goto_6
+-
+-    :cond_c
+-    const-string v5, "\u06e2\u06e3"
+-
+-    invoke-static {v5}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :cond_d
+-    :sswitch_12
+-    sget v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    sget v14, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    sub-int/2addr v5, v14
+-
+-    const v14, -0x1ab72c
+-
+-    xor-int/2addr v5, v14
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_13
+-    const-wide v22, -0x2b63a9a5da78L
+-
+-    invoke-static/range {v22 .. v23}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۣۣۣ۟ۧ(J)Ljava/la
+-
+-    move-result-object v5
+-
+-    const-wide v22, -0x2b77a9a5da78L
+-
+-    invoke-static/range {v22 .. v23}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۣۣۣ۟ۧ(J)Ljava/la
+-
+-    move-result-object v10
+-
+-    sget v13, Lcom/tencent/igce/ۡ۟۟ۨ;->ۢۤ۟ۢ:I
+-
+-    if-gtz v13, :cond_e
+-
+-    invoke-static {}, Lcom/tencent/igce/ۤۨ۟ۤ;->ۨ۠۟ۡ()I
+-
+-    move-object v13, v10
+-
+-    goto/16 :goto_3
+-
+-    :cond_e
+-    const-string v14, "\u06e2\u06e5\u06e1"
+-
+-    move-object v13, v10
+-
+-    goto/16 :goto_2
+-
+-    :sswitch_14
+-    sget v5, Lcom/tencent/igce/۟۟ۨۡۦ;->ۧۧۤ۠:I
+-
+-    sget v14, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    xor-int/lit16 v14, v14, -0x122a
+-
+-    xor-int/2addr v5, v14
+-
+-    if-gtz v5, :cond_10
+-
+-    const/16 v5, 0x2f
+-
+-    sput v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    :cond_f
+-    const-string v5, "\u06e4\u06e7\u06e6"
+-
+-    goto/16 :goto_8
+-
+-    :cond_10
+-    sget v5, Lcom/tencent/igce/ۧ۟۠;->ۢ۠۠ۥ:I
+-
+-    sget v14, Lcom/tencent/igce/۟۟ۨۡۦ;->ۧۧۤ۠:I
+-
+-    rem-int/2addr v5, v14
+-
+-    const v14, 0x1ab425
+-
+-    add-int/2addr v5, v14
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :cond_11
+-    const-string v5, "\u06e3\u06e0\u06e3"
+-
+-    move v6, v8
+-
+-    goto/16 :goto_7
+-
+-    :catch_0
+-    move-exception v5
+-
+-    sget v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    sget v14, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    xor-int/2addr v5, v14
+-
+-    const v14, 0x1ab3aa
+-
+-    add-int/2addr v5, v14
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_15
+-    const/16 v5, 0xa
+-
+-    move/from16 v0, v21
+-
+-    if-ge v0, v5, :cond_d
+-
+-    new-instance v5, Ljava/io/File;
+-
+-    const/16 v14, 0xa
+-
+-    new-array v14, v14, [Ljava/lang/String;
+-
+-    const/16 v20, 0x0
+-
+-    aput-object v16, v14, v20
+-
+-    const/16 v20, 0x1
+-
+-    aput-object v18, v14, v20
+-
+-    const/16 v20, 0x2
+-
+-    aput-object v12, v14, v20
+-
+-    const/16 v20, 0x3
+-
+-    aput-object v11, v14, v20
+-
+-    const/16 v20, 0x4
+-
+-    aput-object v10, v14, v20
+-
+-    const/16 v20, 0x5
+-
+-    aput-object v13, v14, v20
+-
+-    const/16 v20, 0x6
+-
+-    aput-object v3, v14, v20
+-
+-    const/16 v20, 0x7
+-
+-    aput-object v4, v14, v20
+-
+-    const/16 v20, 0x8
+-
+-    aput-object v15, v14, v20
+-
+-    const/16 v20, 0x9
+-
+-    aput-object v17, v14, v20
+-
+-    aget-object v14, v14, v21
+-
+-    invoke-direct {v5, v14}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+-
+-    invoke-static {v5}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    move-result v5
+-
+-    if-eqz v5, :cond_3
+-
+-    sget v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    sget v14, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    add-int/2addr v5, v14
+-
+-    const v14, 0x1aac45
+-
+-    add-int/2addr v5, v14
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_16
+-    invoke-static {}, Lcom/tencent/igce/۟ۧۦۣۨ;->ۡۨۡۥ()Ljava/lang/String;
+-
+-    move-result-object v2
+-
+-    if-eqz v2, :cond_16
+-
+-    sget v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    if-ltz v5, :cond_12
+-
+-    invoke-static {}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦ
+-
+-    const-string v5, "\u06df\u06e1\u06e3"
+-
+-    invoke-static {v5}, Lcom/tencent/igce/ۣۢ۟ۦ;->ۣ۟ۡ۠۠(Ljava/lang/Object;)I
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :cond_12
+-    const-string v5, "\u06e8\u06e0\u06e4"
+-
+-    goto/16 :goto_4
+-
+-    :cond_13
+-    :sswitch_17
+-    invoke-static {}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦ
+-
+-    move-result v5
+-
+-    if-ltz v5, :cond_14
+-
+-    invoke-static {}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦ
+-
+-    const-string v5, "\u06e8\u06df\u06e5"
+-
+-    invoke-static {v5}, Lcom/tencent/igce/ۣۢ۟ۦ;->ۣ۟ۡ۠۠(Ljava/lang/Object;)I
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :cond_14
+-    sget v5, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ
+-
+-    sget v14, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    xor-int/2addr v5, v14
+-
+-    const v14, 0x1abab8
+-
+-    add-int/2addr v5, v14
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_18
+-    const-wide v22, -0x2b21a9a5da78L
+-
+-    invoke-static/range {v22 .. v23}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۣۣۣ۟ۧ(J)Ljava/la
+-
+-    move-result-object v5
+-
+-    const-wide v22, -0x2b3ba9a5da78L
+-
+-    invoke-static/range {v22 .. v23}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۣۣۣ۟ۧ(J)Ljava/la
+-
+-    move-result-object v14
+-
+-    sget v16, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    if-gtz v16, :cond_15
+-
+-    const-string v16, "\u06e3\u06e7\u06e5"
+-
+-    invoke-static/range {v16 .. v16}, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦ
+-
+-    move-result v20
+-
+-    move-object/from16 v16, v5
+-
+-    move-object/from16 v18, v14
+-
+-    goto/16 :goto_0
+-
+-    :cond_15
+-    sget v16, Lcom/tencent/igce/ۣۣ۟ۡۤ;->ۣ۟۠۠۠:I
+-
+-    sget v18, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    rem-int v16, v16, v18
+-
+-    const v18, 0x1aaf84
+-
+-    xor-int v20, v16, v18
+-
+-    move-object/from16 v16, v5
+-
+-    move-object/from16 v18, v14
+-
+-    goto/16 :goto_0
+-
+-    :cond_16
+-    :sswitch_19
+-    invoke-static {}, Lcom/tencent/igce/ۨۦ۠ۥ;->۟ۡۤ۠ۤ()I
+-
+-    move-result v5
+-
+-    if-ltz v5, :cond_17
+-
+-    const-string v5, "\u06e7\u06e1\u06e2"
+-
+-    :goto_9
+-    invoke-static {v5}, Lcom/tencent/igce/۟ۧۦۣۨ;->ۧۦ۟ۧ(Ljava/lang/Object;)I
+-
+-    move-result v5
+-
+-    move/from16 v20, v5
+-
+-    goto/16 :goto_0
+-
+-    :cond_17
+-    const-string v5, "\u06e4\u06e4\u06e3"
+-
+-    goto :goto_9
+-
+-    :sswitch_1a
+-    const-wide v14, -0x2bb5a9a5da78L
+-
+-    invoke-static {v14, v15}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۣۣۣ۟ۧ(J)Ljava/lang/Strin
+-
+-    move-result-object v5
+-
+-    const-wide v14, -0x2bc4a9a5da78L
+-
+-    invoke-static {v14, v15}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۣۣۣ۟ۧ(J)Ljava/lang/Strin
+-
+-    move-result-object v14
+-
+-    sget v15, Lcom/tencent/igce/ۤ۟ۤ۠;->ۧۨۦۣ:I
+-
+-    sget v17, Lcom/tencent/igce/ۡ۟۟ۨ;->ۢۤ۟ۢ:I
+-
+-    move/from16 v0, v17
+-
+-    xor-int/lit16 v0, v0, 0x1630
+-
+-    move/from16 v17, v0
+-
+-    sub-int v15, v15, v17
+-
+-    if-ltz v15, :cond_18
+-
+-    const/16 v15, 0x3a
+-
+-    sput v15, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    const-string v15, "\u06e5\u06e1"
+-
+-    invoke-static {v15}, Lcom/tencent/igce/ۤۧۧۨ;->۟ۥۦۣۧ(Ljava/lang/Object;)I
+-
+-    move-result v20
+-
+-    move-object v15, v5
+-
+-    move-object/from16 v17, v14
+-
+-    goto/16 :goto_0
+-
+-    :cond_18
+-    sget v15, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    sget v17, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    sub-int v15, v15, v17
+-
+-    const v17, -0x1abd11
+-
+-    xor-int v20, v15, v17
+-
+-    move-object v15, v5
+-
+-    move-object/from16 v17, v14
+-
+-    goto/16 :goto_0
+-
+-    :sswitch_1b
+-    const-wide v4, -0x2b8aa9a5da78L
+-
+-    invoke-static {v4, v5}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۣۣۣ۟ۧ(J)Ljava/lang/String;
+-
+-    move-result-object v3
+-
+-    const-wide v4, -0x2b9da9a5da78L
+-
+-    invoke-static {v4, v5}, Lcom/tencent/igce/ۤ۟ۤ۠;->ۣۣۣ۟ۧ(J)Ljava/lang/String;
+-
+-    move-result-object v4
+-
+-    sget v5, Lcom/tencent/igce/۟ۨۡۨ;->۟ۥۥۣۣ:I
+-
+-    sget v14, L۟ۦۦ۟ۧ۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟ۧ۟ۦۦ۟ۧ/۟ۦۦ۟
+-
+-    or-int/lit16 v14, v14, -0xaa1
+-
+-    div-int/2addr v5, v14
+-
+-    if-gtz v5, :cond_f
+-
+-    const/16 v5, 0x38
+-
+-    sput v5, Lcom/tencent/igce/ۣۣ۟ۡۤ;->ۣ۟۠۠۠:I
+-
+-    const-string v5, "\u06e4\u06e4\u06e3"
+-
+-    goto/16 :goto_4
+-
+-    :sswitch_1c
+-    return v6
+-
+-    :sswitch_data_0
+-    .sparse-switch
+-        0xdbe7 -> :sswitch_0
+-        0xdc26 -> :sswitch_a
+-        0xdc41 -> :sswitch_16
+-        0xdc43 -> :sswitch_6
+-        0xdc9c -> :sswitch_c
+-        0xdcc1 -> :sswitch_e
+-        0x1aa741 -> :sswitch_15
+-        0x1aa7b9 -> :sswitch_11
+-        0x1aa7fb -> :sswitch_b
+-        0x1aab99 -> :sswitch_19
+-        0x1aaee5 -> :sswitch_3
+-        0x1aaf20 -> :sswitch_2
+-        0x1aaf25 -> :sswitch_5
+-        0x1aaf7f -> :sswitch_14
+-        0x1ab263 -> :sswitch_17
+-        0x1ab268 -> :sswitch_a
+-        0x1ab2df -> :sswitch_17
+-        0x1ab2fe -> :sswitch_1b
+-        0x1ab343 -> :sswitch_17
+-        0x1ab626 -> :sswitch_1c
+-        0x1ab649 -> :sswitch_10
+-        0x1ab685 -> :sswitch_13
+-        0x1ab6ff -> :sswitch_9
+-        0x1ab701 -> :sswitch_d
+-        0x1aba63 -> :sswitch_18
+-        0x1abac3 -> :sswitch_1a
+-        0x1abd8b -> :sswitch_7
+-        0x1abe07 -> :sswitch_f
+-        0x1abe5e -> :sswitch_1
+-        0x1abe86 -> :sswitch_b
+-        0x1abe9f -> :sswitch_4
+-        0x1ac8ea -> :sswitch_17
+-        0x1ac8ec -> :sswitch_8
+-        0x1ac985 -> :sswitch_12
+-    .end sparse-switch
++    .locals 1
++
++    const/4 v0, 0x1
++
++    return v0
+-
+@@ -5268,13 +4232,5 @@
+-    xor-int/lit8 v2, v36, -0x1
+-
+-    and-int v2, v2, v59
+-
+-    xor-int/lit8 v4, v59, -0x1
+-
+-    and-int v4, v4, v36
+-
+-    or-int/2addr v2, v4
++    const v2, 0x7f09001e
+@@ -5572,4 +4528,10 @@
++
++    move-object/from16 v0, p0
++
++    const v2, 0x7f09001e
++
++    invoke-static {v0, v2}, Lcom/tencent/igce/ۥ۠ۨۥ;->۟ۥۡۦ(Ljava/lang/Object;I)V
